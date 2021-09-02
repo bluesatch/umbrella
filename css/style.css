@@ -1,0 +1,167 @@
+body {
+    font-size: 1vw;
+}
+
+@media (max-width: 560px) {
+    body {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 4vw;
+    }
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.headders {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pull-tab {
+    display: flex;
+    justify-content: right;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: right;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-logo {
+    width:40px
+}
+
+.logo-text {
+    font-size: 35px;
+}
+
+.sub-logo-text {
+    font-size: 20px;
+}
+
+.carousil-bg {
+    background-color: rgb(160, 198, 63);
+}
+
+.car-item {
+    text-align: center;
+}
+
+.car-text {
+    margin-top: 50px;
+    color: white;
+}
+
+.nav-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.page-nav-item {
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.port {
+    display: flex;
+    justify-content: space-between;
+}
+
+.port-cards {
+    margin-bottom: 30px;
+}
+
+.img-max {
+    height: 100%;
+}
+
+.btn {
+    background-color: rgb(160, 198, 63);
+    padding: 2px;
+}
+
+.cnt {
+    text-align: center;
+}
+
+.add-img-cnt {
+    display: flex;
+    justify-content: center;
+}
+
+.add-img {
+    width: 100%;
+}
+
+.up-btn {
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.arch-nav {
+    border-bottom: dashed;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+
+.arch-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.contact-img {
+    margin-right: 10px;
+}
+
+.sub-btn {
+    margin-top: 10px;
+}
+
+.sub-footer {
+    background-color: black;
+    color: white;
+}
+
+/* .Newsletter {
+    display: flex;
+    align-items: center;
+} */
+
+.colophon {
+    display: flex;
+    justify-content: right;
+}
+
+.btm-nv {
+    margin-right: 10px;
+}
