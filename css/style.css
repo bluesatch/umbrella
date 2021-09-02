@@ -2,6 +2,7 @@ body {
     font-size: 1vw;
 }
 
+/* do you want to apply the same font-size to all of the text within the body? That's what this rule is doing. */
 @media (max-width: 560px) {
     body {
         font-size: 2.5vw;
